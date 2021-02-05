@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="232.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controllers.UpdateitemController">
+     <Pane layoutX="-1.0" prefHeight="588.0" prefWidth="234.0">
+         <children>
+         <ImageView fitHeight="595.0" fitWidth="234.0" layoutY="-3.0">
+            <image>
+               <Image url="@../images/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-imag.jpg" />
+            </image>
+         </ImageView>
+         <Button fx:id="backBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goback" prefHeight="60.0" prefWidth="59.0" style="-fx-background-image: url('file:C:/Users/moham/OneDrive/Documents/NetBeansProjects/plze5dem/src/images/back.jpg'); -fx-background-position: center; -fx-background-size: 60; -fx-background-repeat: no-repeat; -fx-background-radius: 50; -fx-background-color: black;">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+            <Label layoutX="66.0" layoutY="80.0" prefHeight="34.0" prefWidth="99.0" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="Footlight MT Light" size="31.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt1" layoutX="18.0" layoutY="184.0" prefHeight="41.0" prefWidth="199.0" promptText="New Name" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt2" layoutX="18.0" layoutY="242.0" prefHeight="41.0" prefWidth="199.0" promptText="New Color" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt3" layoutX="18.0" layoutY="304.0" prefHeight="41.0" prefWidth="199.0" promptText="New Categorie" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt4" layoutX="18.0" layoutY="365.0" prefHeight="41.0" prefWidth="199.0" promptText="New Size" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt5" layoutX="18.0" layoutY="424.0" prefHeight="41.0" prefWidth="199.0" promptText="New Price" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+         <TextField fx:id="txt11" alignment="CENTER" layoutX="90.0" layoutY="123.0" prefHeight="41.0" prefWidth="51.0" promptText="ID" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <Button fx:id="updateBtn" layoutX="54.0" layoutY="504.0" mnemonicParsing="false" onAction="#update" prefHeight="42.0" prefWidth="122.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-cursor: hand;" text="Update">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </Pane>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddcostumerController">
+      <Pane layoutX="-1.0" prefHeight="588.0" prefWidth="234.0">
+         <children>
+         <ImageView fitHeight="588.0" fitWidth="244.0" layoutX="-6.0" layoutY="-1.0">
+            <image>
+               <Image url="@../images/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-imag.jpg" />
+            </image>
+         </ImageView>
+            <TextField fx:id="txt1" layoutX="18.0" layoutY="185.0" prefHeight="41.0" prefWidth="199.0" promptText="Name" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <Button fx:id="addBtn" layoutX="55.0" layoutY="478.0" mnemonicParsing="false" onAction="#add" prefHeight="42.0" prefWidth="122.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-cursor: hand;" text="Add">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Label layoutX="22.0" layoutY="108.0" prefHeight="34.0" prefWidth="192.0" text="New Costumer" textFill="WHITE">
+               <font>
+                  <Font name="Footlight MT Light" size="31.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt2" layoutX="18.0" layoutY="253.0" prefHeight="41.0" prefWidth="199.0" promptText="Email" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt3" layoutX="18.0" layoutY="321.0" prefHeight="41.0" prefWidth="199.0" promptText="phone" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+            <TextField fx:id="txt4" layoutX="18.0" layoutY="394.0" prefHeight="41.0" prefWidth="199.0" promptText="adress" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+         </children>
+      </Pane>
+   <Button fx:id="backBtn" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#goback" prefHeight="60.0" prefWidth="59.0" style="-fx-background-image: url('file:C:/Users/moham/OneDrive/Documents/NetBeansProjects/plze5dem/src/images/back.jpg'); -fx-background-position: center; -fx-background-size: 60; -fx-background-repeat: no-repeat; -fx-background-radius: 50; -fx-background-color: black;">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+</AnchorPane>

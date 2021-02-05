@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddorderController">
+      <Pane layoutX="-1.0" prefHeight="588.0" prefWidth="234.0">
+         <children>
+         <ImageView fx:id="date" fitHeight="595.0" fitWidth="241.0" layoutX="-2.0" layoutY="-1.0">
+            <image>
+               <Image url="@../images/pngtree-purple-light-effect-electronic-technology-background-backgrounddatabusinessblueelectronictechnologyintelligentblue-backgroundtechnology-backgroundlightcool-imag.jpg" />
+            </image>
+         </ImageView>
+            <Button fx:id="addBtn" layoutX="56.0" layoutY="482.0" mnemonicParsing="false" onAction="#add" prefHeight="42.0" prefWidth="122.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-cursor: hand;" text="Add">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Label layoutX="45.0" layoutY="109.0" prefHeight="34.0" prefWidth="148.0" text="New Order" textFill="WHITE">
+               <font>
+                  <Font name="Footlight MT Light" size="31.0" />
+               </font>
+            </Label>
+         <Button fx:id="backBtn" layoutX="13.0" layoutY="12.0" mnemonicParsing="false" onAction="#goback" prefHeight="60.0" prefWidth="59.0" style="-fx-background-image: url('file:C:/Users/moham/OneDrive/Documents/NetBeansProjects/plze5dem/src/images/back.jpg'); -fx-background-position: center; -fx-background-size: 60; -fx-background-repeat: no-repeat; -fx-background-radius: 50; -fx-background-color: black;">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+         <TextField fx:id="txt1" layoutX="20.0" layoutY="185.0" prefHeight="41.0" prefWidth="199.0" promptText="costumerid" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+         <TextField fx:id="txt2" layoutX="20.0" layoutY="276.0" prefHeight="41.0" prefWidth="199.0" promptText="itemid" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+         <TextField fx:id="txt3" layoutX="20.0" layoutY="377.0" prefHeight="41.0" prefWidth="199.0" promptText="quantity" style="-fx-background-color: #ded3eb; -fx-background-radius: 10;" />
+         </children>
+      </Pane>
+</AnchorPane>
